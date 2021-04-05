@@ -18,6 +18,8 @@ RUN apt-get update && \
   python3-venv && \
   apt-get -y install --no-install-recommends libapache2-mod-wsgi-py3
 
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y dos2unix;
+
 # Force apache error logs to stderr
 RUN ln -sf /proc/self/fd/1 /var/log/apache2/error.log
 
@@ -32,6 +34,10 @@ ADD . /opt/openoni
 
 ADD entrypoint.sh /
 RUN chmod u+x /entrypoint.sh
+
+#The biggest problem I have is windows CRLF creeping into the code.
+RUN dos2unix /opt/openoni/*.sh
+RUN find /opt/openoni/ -type f -exec dos2unix {} \;
 
 RUN echo "/usr/local/bin/manage delete_cache" > /etc/cron.daily/delete_cache
 RUN chmod u+x /etc/cron.daily/delete_cache

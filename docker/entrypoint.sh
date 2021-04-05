@@ -28,6 +28,11 @@ else
   cp $src/startup.sh /startup.sh
 fi
 
+#The biggest problem I have is windows CRLF creeping into the code.
+dos2unix /*.sh
+dos2unix /opt/openoni/docker/*.sh
+find /opt/openoni/ -type f -exec dos2unix {} \;
+
 # Make all scripts executable
 chmod u+x /*.sh
 chmod u+x /usr/local/bin/*
