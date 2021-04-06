@@ -18,6 +18,8 @@ services:
     command:
       - solr-precreate
       - openoni
+    ports:
+      - 8983:8983      
   rais:
     image: uolibraries/rais:4
     environment:

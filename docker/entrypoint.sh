@@ -29,9 +29,16 @@ else
 fi
 
 #The biggest problem I have is windows CRLF creeping into the code.
-dos2unix /*.sh
-dos2unix /opt/openoni/docker/*.sh
-find /opt/openoni/ -type f -exec dos2unix {} \;
+#dos2unix /*.sh
+#dos2unix /opt/openoni/docker/*.sh
+#find /opt/openoni/ -type f -exec dos2unix {} \;
+
+find /opt/openoni/core -type f -exec dos2unix {} \;
+find /opt/openoni/docker -type f -exec dos2unix {} \;
+find /opt/openoni/ENV -type f -exec dos2unix {} \;
+find /opt/openoni/onisite -type f -exec dos2unix {} \;
+find /opt/openoni/static -type f -exec dos2unix {} \;
+find /opt/openoni/themes -type f -exec dos2unix {} \;
 
 # Make all scripts executable
 chmod u+x /*.sh

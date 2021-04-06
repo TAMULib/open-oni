@@ -116,7 +116,7 @@
       "type": "string",
       "multiValued": true,
       "indexed": true,
-      "required": true,
+      "required": false,
       "stored": true
     },
     {
