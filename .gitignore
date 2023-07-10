@@ -1,28 +1,2 @@
-*.pyc
-ENV
-onisite/settings_local.py
-onisite/urls.py
-*.log
-data/batches
-data/ocr
-data/word_coordinates
-.coverage
-static/compiled
-static/cov
-static/sitemaps
-
-# :P
 .DS_Store
-
-#Ignore all user added themes, but keep default
-themes/*
-!themes/default
-
-# Ignore all plugins, but keep the directory module and readme
-onisite/plugins/*
-!onisite/plugins/__init__.py
-!onisite/plugins/README.md
-
-# Ignore Docker overrides
-/docker-compose.override.yml
 .env

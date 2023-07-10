@@ -58,8 +58,8 @@ If sending email from different server, replace `@' + url.hostname` with host.
 Space at the end of EMAIL_SUBJECT_PREFIX intentional
 to separate subject from prefix.
 """
-DEFAULT_FROM_EMAIL = 'YOUR_PROJECT_NAME_ABBREVIATION-no-reply@' + url.hostname
-EMAIL_SUBJECT_PREFIX = '[YOUR_PROJECT_NAME_ABBREVIATION] '
+DEFAULT_FROM_EMAIL = 'no-reply@' + url.hostname
+EMAIL_SUBJECT_PREFIX = '[TAMU-] '
 
 
 ################################################################
@@ -76,8 +76,8 @@ descriptions that will only show up occasionally.
 For example: 'Open ONI' for most headers, 'Open Online Newspapers Initiative'
 for introduction / about / further information / etc
 """
-SITE_TITLE = 'YOUR_SHORT_PROJECT_NAME'
-PROJECT_NAME = 'YOUR_LONG_PROJECT_NAME'
+SITE_TITLE = 'Texas A&M University Libraries'
+PROJECT_NAME = 'Newspapers'
 
 """
 Use below only if LoC is down and MARC requests fail.
