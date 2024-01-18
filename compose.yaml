@@ -34,11 +34,11 @@ services:
       ONI_LOG_TO_FILE: 
       ONI_SECRET_KEY: 
       ONI_SOLR_URL: 
-      YOUR_CUSTOM_SITE_TITLE: 
-      YOUR_CUSTOM_PROJECT_NAME: 
-      YOUR_CUSTOM_FROM_EMAIL: 
-      YOUR_CUSTOM_EMAIL_SUBJECT_PREFIX: 
-      YOUR_CUSTOM_THEME_NAME: 
+      YOUR_CUSTOM_SITE_TITLE: "Texas A&M Newspaper Collection"
+      YOUR_CUSTOM_PROJECT_NAME: "Texas A&M Newspaper Collection"
+      YOUR_CUSTOM_FROM_EMAIL: "helpdesk@library.tamu.edu"
+      YOUR_CUSTOM_EMAIL_SUBJECT_PREFIX: "Texas A&M Newspaper Collection"
+      YOUR_CUSTOM_THEME_NAME: tamu
   rdbms:
     build:
       context: .
