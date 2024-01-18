@@ -12,7 +12,7 @@ This project is forked from James Sullivan's [open-oni/customizations](https://g
 ## Run Locally with Docker Compose for Development
 
 #### Directory Setup:
-- openoni
+- `openoni`
     - `app`: Clone [open-oni-tamu](https://github.com/JamesS-TAMU/open-oni-tamu) into this folder, switch to `tamu-customizations` branch (default).
     - `theme`: Clone [open-oni-theme-tamu](https://github.com/JamesS-TAMU/open-oni-theme-tamu) into this folder. 
     - `featured_content`: Clone [open-oni-featured-content-tamu](https://github.com/JamesS-TAMU/open-oni-featured-content-tamu) into this folder, switch to `tamu` branch (default).
