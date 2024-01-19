@@ -81,7 +81,7 @@ services:
   manager:
     build:
       context: .
-      dockerfile: manager.dockerfile
+      dockerfile: manager-tamu.dockerfile
     image: openoni-manager:1.0.0
     container_name: openoni-manager
     networks:
@@ -90,7 +90,7 @@ services:
       - web_appdata:/opt/openoni:z
       - web_batches:/opt/openoni/data/batches:z
       - ../theme:/opt/openoni/themes/tamu:z
-      - ../featured_content:/opt/openoni/onisite/plugins/featured_content:z
+      # - ../featured_content:/opt/openoni/onisite/plugins/featured_content:z
 
 networks:
   openoni:
