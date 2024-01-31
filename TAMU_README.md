@@ -8,6 +8,7 @@ This project is forked from James Sullivan's [open-oni/customizations](https://g
 
 - Created `compose-tamu.yaml` for TAMU specific configurations.
 - Instead of using `docker volumes` in `compose-tamu.yaml`, two folders `../theme` and `../featured_content` are mounted at `/opt/openoni/themes/tamu` and `/opt/openoni/onisite/plugins/featured_content`, respectively, for ease of development.
+- Created script `initialize_database_tamu.sh` to insert `awardee` and the three TAMU newspapers into the database.
 
 ## Run Locally with Docker Compose for Development
 
