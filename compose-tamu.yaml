@@ -12,6 +12,7 @@ services:
       - web_batches:/opt/openoni/data/batches:z
       - ../theme:/opt/openoni/themes/tamu:z
       - ../featured_content:/opt/openoni/onisite/plugins/featured_content:z
+      - ../staticpages:/opt/openoni/onisite/plugins/staticpages:z
     ports:
       - 80:80
     depends_on:
@@ -91,6 +92,7 @@ services:
       - web_batches:/opt/openoni/data/batches:z
       - ../theme:/opt/openoni/themes/tamu:z
       # - ../featured_content:/opt/openoni/onisite/plugins/featured_content:z
+      # - ../staticpages:/opt/openoni/onisite/plugins/staticpages:z
 
 networks:
   openoni:
