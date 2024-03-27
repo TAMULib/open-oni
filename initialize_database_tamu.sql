@@ -41,7 +41,7 @@ VALUES (
 	'2015-08-06 16:20:48',
 	0,
 	NULL,
-	'https://${SITE_URL}/lccn/sn86088544/issues',
+	'https://SITE_URL/lccn/sn86088544/issues',
 	NULL);
 
 
@@ -85,7 +85,7 @@ VALUES (
 	'2020-01-01 01:00:00',
 	0,
 	NULL,
-	'https://${SITE_URL}/lccn/sn88037063/issues',
+	'https://SITE_URL/lccn/sn88037063/issues',
 	NULL);
 
 INSERT INTO core_title (
@@ -128,7 +128,7 @@ VALUES (
 	'2020-01-01 01:00:00',
 	0,
 	NULL,
-	'https://${SITE_URL}/lccn/sn37020267/issues',
+	'https://SITE_URL/lccn/sn37020267/issues',
 	NULL);
 
 INSERT INTO core_alttitle (`name`, `title_id`)
@@ -155,7 +155,7 @@ VALUES (
 	'2016-04-01 15:54:59',
 	'2016-04-01 15:54:59',
 	'txa',
-	'https://${SITE_URL}/',
+	'https://SITE_URL/',
 	'\r<p xmlns=\"http://www.w3.org/1999/xhtml\">\r<p>The Battalion started production in 1893 as a monthly publication by the Stephen F. Austin and Calliopean Literary Societies until 1906 when publication was taken over by the Student Association. The Battalion is the longest running student newspaper at Texas A&M, having been continuously published since 1893 with the exception for a short period in 1918 during World War I. \nThe frequency of Battalion has changed over the years, but can be seen as follows:\n</p>\n<p>Monthly\tOct. 1893 to June 1904\n</p>\n<p>Weekly\tOct. 1904 to Dec. 1933\n</p>\n<p>??? [Gap]\tJan. 1934 to Aug. 1939\n</p>\n<p>3 issues/week\tSept. 1939 to May 1944\n</p>\n<p>2 issues/week\tJune 1944 to Mar. 1945\n</p>\n<p>Weekly\tMar. 1945 to Jan. 1946\n</p>\n<p>3 issues/week\tFeb. 1946 to May 1946\n</p>\n<p>Weekly\tJune 1946 to Oct. 1946\n</p>\n<p>2 issues/week\tNov. 1946 to Mar. 1947\n</p>\n<p>3 issues/week\tMar. 1947 to Aug. 1947\tSummer = 2 issues/week\n</p>\n<p>Daily (5 issues/week)\tSept. 1947 to Aug. 1949\tSummer = 3 issues/week\n</p>\n<p>Daily (5 issues/week)\tSept. 1949 to May 1952\tSummer = 4 issues/week\n</p>\n<p>Daily (4 issues/week)\tJune 1952 to Aug. 1954\tSummer = 2 issues/week\n</p>\n<p>Daily (4 issues/week)\tSept. 1954 to May 1977\tSummer = 1 issue/week\n</p>\n<p>Daily (5 issues/week)\tJune 1977 to May 1978\tSummer = 2 issues/week\n</p>\n<p>Daily (5 issues/week)\tJune 1978 to May 1984\tSummer = 3 issues/week\n</p>\n<p>Daily (5 issues/week)\tJune 1984 to May 2012\tSummer = 4 issues/week\n</p>\n<p>Daily (5 issues/week) \tJune 20012 to May 2015\tSummer = 2 issues/week\n</p>\r ',
 	'2023-05-23 00:00:00');
 
@@ -174,7 +174,7 @@ VALUES (
 	'2016-04-01 15:54:59',
 	'2016-04-01 15:54:59',
 	'txa',
-	'https://${SITE_URL}/',
+	'https://SITE_URL/',
 	'<p xmlns=\"http://www.w3.org/1999/xhtml\">\n<p>The Texas Polka News</p>',
 	'2023-05-23 00:00:00');
 
@@ -192,7 +192,7 @@ VALUES (
 	'2016-04-01 15:54:59',
 	'2016-04-01 15:54:59',
 	'txa',
-	'https://${SITE_URL}/',
+	'https://SITE_URL/',
 	'<p xmlns=\"http://www.w3.org/1999/xhtml\">\n<p>The Daily Bulletin/Reveille</p>',
 	'2023-05-23 00:00:00');
 
