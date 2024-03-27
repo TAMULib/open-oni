@@ -5,6 +5,7 @@ read -p "Enter the database name: " DATABASE_NAME
 read -p "Enter the database host: " DATABASE_HOST
 read -p "Enter the database user: " DATABASE_USER
 read -s -p "Enter password: " DATABASE_PASSWORD
+echo
 read -p "Enter site url: [e.g. newspaper.mydomain.com] " SITE_URL
 echo
 
