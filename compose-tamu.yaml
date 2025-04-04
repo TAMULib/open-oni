@@ -82,7 +82,7 @@ services:
   manager:
     build:
       context: .
-      dockerfile: manager.dockerfile
+      dockerfile: manager-tamu-rancher.dockerfile
     image: openoni-manager:1.0.0
     container_name: openoni-manager
     networks:
